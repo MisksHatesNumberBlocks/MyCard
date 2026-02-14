@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: black;
+      }
+      .card {
+        background-color: green;
+        border: 3px solid;
+        border-color: green;
+        width: 270px;
+        height: 400px;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+      }
+      .card * {
+        display: block;
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-family: "Roboto", sans-serif;
+      }
+      .card #userpfp {
+        border: 5px solid;
+        border-radius: 150px;
+        display: block;
+        margin: auto;
+      }
+      #h1 {
+        color: white;
+        font-family: "Bitcount Single", sans-serif;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>My card</title>
+  </head>
+  <body>
+    <h1 id="h1">My card</h1> <!-- You can change this -->
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9RG22WpjASW2oSsEaLx_CtuUsZhG9H7GKTw&s" width="120" id="userpfp" onclick="alert('my pfp')"> <br>
+      <h3>[your username]</h3> <br>
+      <a href="https://youtube.com">[your website]</a> <br><br>
+      <p>I like turtles</p>
+    </div>
+  </body>
+</html>
